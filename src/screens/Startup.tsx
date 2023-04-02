@@ -39,8 +39,6 @@ const StartupList = () => {
     display: "grid",
     gap: 40,
     height: 400,
-    overflow: "hidden",
-
   }}> {startups.map(startup => <BrutalCard style={{
     background: "white",
   }}>

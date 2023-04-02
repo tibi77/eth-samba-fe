@@ -1,7 +1,5 @@
 // import { Button, Typography } from "@mui/material";
-import React from 'react';
-
-import { useState } from "react";
+// import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from '../components/Button';
 import styled from '@emotion/styled';
@@ -16,7 +14,7 @@ export const BrutalCard = styled.div`
   `;
 
 export const Login = () => {
-    const [addressState, setAddressState] = useState();
+    // const [addressState, setAddressState] = useState();
     const navigate = useNavigate();
 
     async function connectToFuel(user: any) {
